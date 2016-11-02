@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Mountains+of+Christmas|Rancho');
+
+
+.top-bar-cont{
+  position: relative;
+  width: 100%;
+  top: 0;
+  display: block;
+}
+.nav-wrapper{
+  font-family: 'Amatic SC', cursive;
+}
+nav.top-bar-nav{
+  background-color: rgb(70, 60, 128);
+}
+.brand-logo{
+  font-size: 3em !important;
+  padding-left: 1em !important;
+}
+#nav-mobile li a{
+  font-size: 1.8em;
+}
+.descrip-container{
+  margin-top: 0;
+}
+.photo-gallery{
+  display: flex;
+  flex-flow: row wrap;
+}
+.card.photo-gallery-pic{
+  margin-bottom: 0;
+  margin-top: 0;
+  width: 50%;
+}
+.logo-title{
+  width: 200px;
+  height: 200px;
+  margin-top: 1em;
+}
+.text-content{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.text-content h2{
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+}
+.text-content p{
+  font-family: 'Rancho', cursive;
+  text-align: justify;
+  font-size: 2em;
+  padding: 0.5em;
+  color: rgb(77, 77, 77);
+}
