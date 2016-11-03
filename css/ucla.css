@@ -11,7 +11,7 @@
   font-family: 'Amatic SC', cursive;
 }
 nav.top-bar-nav{
-  background-color: rgb(70, 60, 128);
+  background-color: rgb(0, 175, 238);
 }
 .brand-logo{
   font-size: 3em !important;
@@ -22,6 +22,7 @@ nav.top-bar-nav{
 }
 .descrip-container{
   margin-top: 0;
+  margin-bottom: 2em;
 }
 .photo-gallery{
   display: flex;
@@ -45,6 +46,7 @@ nav.top-bar-nav{
 .text-content h2{
   font-family: 'Amatic SC', cursive;
   text-align: center;
+  color: rgb(0, 175, 238);
 }
 .text-content p{
   font-family: 'Rancho', cursive;
@@ -52,4 +54,60 @@ nav.top-bar-nav{
   font-size: 2em;
   padding: 0.5em;
   color: rgb(77, 77, 77);
+}
+.hovered-img{
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.card-title{
+  font-family: 'Rancho', cursive;
+  font-size: 1.9em !important;
+  width: 100% !important;
+  display: none;
+}
+.card-title.verde{
+  color: #fff !important;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.promo-cont{
+  height: 313px;
+  background-image: url(../img/ucla-banner.jpg);
+  background-size: contain;
+}
+.promo-cover{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 175, 238, 0.7);
+  display: flex;
+  flex-flow: row wrap;
+  padding: 1em;
+  justify-content: center;
+  align-items: center;
+}
+.promo-cover h2{
+  width: auto;
+  font-family: 'Amatic SC', cursive;
+  color: #fff;
+  font-size: 9rem;
+}
+.promo-info-cont{
+  margin-top: 3em;
+  font-family: 'Rancho', cursive;
+  padding-left: 1em;
+}
+.promo-info-cont h2{
+  color: rgb(0, 175, 238);
+}
+.text-info{
+  font-size: 2em;
+}
+.promo-info-cont .iframe-cont{
+  border: 2px solid #00AFEE;
+}
+.title-color{
+  color: rgb(0, 175, 238);
+}
+#map{
+  width: 100%;
+  height: 350px;
 }
