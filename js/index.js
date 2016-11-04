@@ -9,11 +9,16 @@ $(function(){
 
   })
 
-  $('.content-col').mouseenter(function(){
-    $(this).addClass('z-depth-4');
-  })
+  $('.content-col')
+    .mouseenter(function(){
+      $(this).addClass('z-depth-4');
+    })
+    .mouseleave(function(){
+      $(this).removeClass('z-depth-4');
+    })
+    .click(function(){
+      window.location.href = 'ucla.html';
+    })
 
-  $('.content-col').mouseleave(function(){
-    $(this).removeClass('z-depth-4');
-  })
+
 })
