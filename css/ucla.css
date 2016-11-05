@@ -53,7 +53,7 @@ nav.top-bar-nav{
   text-align: justify;
   font-size: 2em;
   padding: 0.5em;
-  color: rgb(77, 77, 77);
+  color: #82b543;
 }
 .hovered-img{
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -96,15 +96,21 @@ nav.top-bar-nav{
   padding-left: 1em;
 }
 .promo-info-cont h2{
+  font-family: 'Amatic SC', cursive;
   color: rgb(0, 175, 238);
 }
 .text-info{
   font-size: 2em;
+  color: #82B543;
+}
+.text-info span{
+  color: rgb(0, 175, 238);
 }
 .promo-info-cont .iframe-cont{
   border: 2px solid #00AFEE;
 }
 .title-color{
+  font-family: 'Amatic SC', cursive;
   color: rgb(0, 175, 238);
 }
 #map{
