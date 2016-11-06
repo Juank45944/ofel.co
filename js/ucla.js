@@ -8,17 +8,30 @@ $(function(){
     $(this).find('img').removeClass('hovered-img');
     $(this).find('.card-title').hide('slide');
   })
-  $('.carousel').carousel({
-    full_width: true
+  $('.galeria-slider').slick({
+    centerMode: true,
+    slidesToShow: 3,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 3
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1
+        }
+      }
+    ]
   });
-  next_pic();
 })
-
-
-
-function next_pic(){
-  setTimeout(function(){
-    $('.carousel').carousel('next')
-    next_pic()
-  }, 5000);
-}

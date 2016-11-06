@@ -120,4 +120,26 @@ nav.top-bar-nav{
 .photos-cont{
   background-color: #A8CF45;
   margin-top: 5em;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.carousel-cont{
+  width: 100%;
+}
+.galeria-slider img{
+  width: 100%;
+}
+.test-row{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.test-cont{
+  width: 85%;
+}
+blockquote em{
+  text-align: right;
+  color: rgb(110, 110, 110);
 }
