@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Mountains+of+Christmas|Rancho');
 
+*{
+  box-sizing: border-box;
+}
 
 .top-bar-cont{
   position: relative;
@@ -54,6 +57,8 @@ nav.top-bar-nav{
   font-size: 2em;
   padding: 0.5em;
   color: #82b543;
+  margin-top: 0em;
+  padding-top: 0;
 }
 .hovered-img{
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -125,7 +130,7 @@ nav.top-bar-nav{
   justify-content: center;
 }
 .carousel-cont{
-  width: 95%;
+  width: 90%;
 }
 .galeria-slider img{
   width: 100%;
@@ -133,6 +138,7 @@ nav.top-bar-nav{
 .test-row{
   margin-top: 5em;
   width: 100%;
+  height: 540.33px;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -173,43 +179,43 @@ nav.top-bar-nav{
   display: none;
 }
 #tq{
-  top: 129em;
+  top: 195em;
 }
 #tq .bubble{
   width: 20%;
 }
 #avm{
-  top: 123em;
+  top: 189em;
 }
 #avm .bubble{
   width: 35%;
 }
 #ma{
-  top: 127em;
+  top: 193em;
 }
 #ma .bubble{
   width: 25%;
 }
 #rg{
-  top: 127em;
+  top: 193em;
 }
 #rg .bubble{
   width: 20%;
 }
 #pl{
-  top: 127em;
+  top: 193em;
 }
 #pl .bubble{
   width: 20%;
 }
 #dp{
-  top: 127em;
+  top: 193em;
 }
 #dp .bubble{
   width: 20%;
 }
 #fdr{
-  top: 127em;
+  top: 193em;
 }
 #fdr .bubble{
   width: 13%;
@@ -218,43 +224,43 @@ nav.top-bar-nav{
   left: 45%;
 }
 #mp{
-  top: 141em;
+  top: 207em;
 }
 #mp .bubble{
   width: 20%;
 }
 #ag{
-  top: 139em;
+  top: 205em;
 }
 #ag .bubble{
   width: 20%;
 }
 #vm{
-  top: 136em;
+  top: 202em;
 }
 #vm .bubble{
   width: 25%;
 }
 #sv{
-  top: 139em;
+  top: 205em;
 }
 #sv .bubble{
   width: 25%;
 }
 #cp{
-  top: 137em;
+  top: 203em;
 }
 #cp .bubble{
   width: 35%;
 }
 #ng{
-  top: 139em;
+  top: 205em;
 }
 #ng .bubble{
   width: 25%;
 }
 #mc{
-  top: 139em;
+  top: 205em;
   left: 60em;
 }
 #mc .bubble{
@@ -265,6 +271,10 @@ nav.top-bar-nav{
 }
 .boy{
   margin-top: 1.5em;
+}
+.boy img{
+  width: 172.7px;
+  height: 144.767px;
 }
 .bubble
 {
@@ -324,4 +334,46 @@ footer.page-footer .footer-copyright{
 .footer-cont{
   width: 85%;
   margin: 0 auto;
+}
+.mas-ayuda-cont{
+  margin-top: 5em;
+}
+.mas-ayuda-cont img{
+  border: 2px solid #00AFEE;
+}
+.mas-ayuda-cont p.text-info{
+  font-family: 'Rancho', cursive;
+  text-align: justify;
+  margin-top: 5em;
+  padding-right: 1em;
+}
+.mas-ayuda-cont li{
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+  color: rgb(0, 175, 238);
+  font-weight: bold;
+}
+.mas-ayuda-cont ul{
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: 0 auto;
+}
+.mensaje-cont{
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.mensaje-cont .first{
+  width: 100%;
+  text-align: center;
+  font-family: 'Rancho', cursive;
+  font-size: 5em;
+  color: rgb(0, 175, 238);
+}
+.mensaje-cont .second{
+  font-family: 'Amatic SC', cursive;
+  font-size: 10em;
+  color: #EC268F;
 }

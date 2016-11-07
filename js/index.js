@@ -16,9 +16,16 @@ $(function(){
     .mouseleave(function(){
       $(this).removeClass('z-depth-4');
     })
-    .click(function(){
+
+  $('#conoce_la_comunidad').click(function(){
+      window.location.href = 'quienes_somos.html';
+  })
+  $('#ucla').click(function(){
       window.location.href = 'ucla.html';
-    })
+  })
+  $('#misiones').click(function(){
+      window.location.href = 'misiones.html';
+  })
 
 
 })

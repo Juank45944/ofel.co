@@ -144,3 +144,7 @@ footer.page-footer li{
 footer.page-footer .footer-copyright{
   background-color: rgba(51,51,51,0.3);
 }
+.footer-cont{
+  width: 85%;
+  margin: 0 auto;
+}
