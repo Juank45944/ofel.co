@@ -8,6 +8,14 @@ $(function(){
     $(this).find('img').removeClass('hovered-img');
     $(this).find('.card-title').hide('slide');
   })
+  $('.boy img').mouseenter(function(){
+    $(this).parent().prev().show('fade');
+  })
+  $('.boy img').mouseleave(function(){
+    $(this).parent().prev().hide('fade');
+  })
+
+
   $('.galeria-slider').slick({
     centerMode: true,
     slidesToShow: 3,

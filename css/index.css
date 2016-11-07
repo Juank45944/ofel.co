@@ -131,3 +131,16 @@ nav.top-bar-nav{
 .social-cover .left-social{
   width: 77%;
 }
+footer.page-footer{
+  background-color: rgb(70, 60, 128);
+  margin-top: 5em;
+}
+footer.page-footer p{
+  text-align: justify;
+}
+footer.page-footer li{
+  margin-left: 2.5em;
+}
+footer.page-footer .footer-copyright{
+  background-color: rgba(51,51,51,0.3);
+}
