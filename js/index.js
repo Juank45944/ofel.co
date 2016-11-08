@@ -11,10 +11,10 @@ $(function(){
 
   $('.content-col')
     .mouseenter(function(){
-      $(this).addClass('z-depth-4');
+      $(this).addClass('z-depth-2');
     })
     .mouseleave(function(){
-      $(this).removeClass('z-depth-4');
+      $(this).removeClass('z-depth-2');
     })
 
   $('#conoce_la_comunidad').click(function(){
