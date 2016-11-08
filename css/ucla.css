@@ -1,27 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Mountains+of+Christmas|Rancho');
+@import url(main.css);
 
-*{
-  box-sizing: border-box;
-}
 
-.top-bar-cont{
-  position: relative;
-  width: 100%;
-  top: 0;
-  display: block;
-}
-.nav-wrapper{
-  font-family: 'Amatic SC', cursive;
-}
 nav.top-bar-nav{
   background-color: rgb(0, 175, 238);
-}
-.brand-logo{
-  font-size: 3em !important;
-  padding-left: 1em !important;
-}
-#nav-mobile li a{
-  font-size: 1.8em;
 }
 .descrip-container{
   margin-top: 0;
@@ -52,13 +33,14 @@ nav.top-bar-nav{
   color: rgb(0, 175, 238);
 }
 .text-content p{
-  font-family: 'Rancho', cursive;
+  font-family: 'Oxygen', sans-serif;
   text-align: justify;
-  font-size: 2em;
+  font-size: 1.5em;
   padding: 0.5em;
-  color: #82b543;
+  color: #71b51d;
   margin-top: 0em;
   padding-top: 0;
+  line-height: 1.2em;
 }
 .hovered-img{
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -105,8 +87,10 @@ nav.top-bar-nav{
   color: rgb(0, 175, 238);
 }
 .text-info{
-  font-size: 2em;
-  color: #82B543;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1.5em;
+  color: #71b51d;
+  text-align: justify;
 }
 .text-info span{
   color: rgb(0, 175, 238);
@@ -169,6 +153,7 @@ nav.top-bar-nav{
   display: flex;
   flex-flow: row wrap;
   padding: 0.2em;
+  position: relative;
 }
 .globe, .boy{
   width: 100%;
@@ -177,98 +162,52 @@ nav.top-bar-nav{
 .globe{
   position: absolute;
   display: none;
-}
-#tq{
-  top: 195em;
-}
-#tq .bubble{
-  width: 20%;
+  top: -80px;
+  width: 130%;
 }
 #avm{
-  top: 189em;
-}
-#avm .bubble{
-  width: 35%;
-}
-#ma{
-  top: 193em;
-}
-#ma .bubble{
-  width: 25%;
-}
-#rg{
-  top: 193em;
-}
-#rg .bubble{
-  width: 20%;
+  width: 200%;
+  top: -150px;
 }
 #pl{
-  top: 193em;
-}
-#pl .bubble{
-  width: 20%;
-}
-#dp{
-  top: 193em;
-}
-#dp .bubble{
-  width: 20%;
+  top: -40px;
 }
 #fdr{
-  top: 193em;
-}
-#fdr .bubble{
-  width: 13%;
+  left: -30px;
+  width: 100%;
 }
 #fdr .bubble::after{
-  left: 45%;
+  left: 57%;
 }
 #mp{
-  top: 207em;
-}
-#mp .bubble{
-  width: 20%;
-}
-#ag{
-  top: 205em;
-}
-#ag .bubble{
-  width: 20%;
+  top: -60px;
 }
 #vm{
-  top: 202em;
-}
-#vm .bubble{
-  width: 25%;
+  width: 150%;
+  top: -130px;
 }
 #sv{
-  top: 205em;
-}
-#sv .bubble{
-  width: 25%;
+  top: -120px;
 }
 #cp{
-  top: 203em;
-}
-#cp .bubble{
-  width: 35%;
+  width: 170%;
+  top: -160px;
+  left: -20px;
 }
 #ng{
-  top: 205em;
+  top: -120px;
 }
-#ng .bubble{
-  width: 25%;
+#ng .bubble::after{
+  left: 37%;
 }
 #mc{
-  top: 205em;
-  left: 60em;
-}
-#mc .bubble{
-  width: 28%;
+  top: -120px;
+  left: -50px;
 }
 #mc .bubble::after{
-  left: 75%;
+  left: 57%;
 }
+
 .boy{
   margin-top: 1.5em;
 }
@@ -322,19 +261,7 @@ footer.page-footer{
   background-color: rgb(0, 175, 238);
   margin-top: 5em;
 }
-footer.page-footer p{
-  text-align: justify;
-}
-footer.page-footer li{
-  margin-left: 2.5em;
-}
-footer.page-footer .footer-copyright{
-  background-color: rgba(51,51,51,0.3);
-}
-.footer-cont{
-  width: 85%;
-  margin: 0 auto;
-}
+
 .mas-ayuda-cont{
   margin-top: 5em;
 }
@@ -342,8 +269,7 @@ footer.page-footer .footer-copyright{
   border: 2px solid #00AFEE;
 }
 .mas-ayuda-cont p.text-info{
-  font-family: 'Rancho', cursive;
-  text-align: justify;
+  font-family: 'Oxygen', sans-serif;
   margin-top: 5em;
   padding-right: 1em;
 }

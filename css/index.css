@@ -1,11 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Mountains+of+Christmas|Rancho');
+@import url(main.css);
 
-/*
-font-family: 'Mountains of Christmas', cursive;
-font-family: 'Amatic SC', cursive;
-font-family: 'Rancho', cursive;
-
-*/
 body{
   background-color: rgb(255, 253, 255);
 }
@@ -15,19 +9,7 @@ body{
   top: 0;
   display: none;
 }
-.nav-wrapper{
-  font-family: 'Amatic SC', cursive;
-}
-.brand-logo{
-  font-size: 3em !important;
-  padding-left: 1em !important;
-}
-#nav-mobile li a{
-  font-size: 1.8em;
-}
-nav.top-bar-nav{
-  background-color: rgb(70, 60, 128);
-}
+
 .intro-video{
     z-index: -2;
 }
@@ -92,7 +74,7 @@ nav.top-bar-nav{
   cursor: pointer;
   padding-top: 1em !important;
   padding-bottom: 1em !important;
-  border-radius: 3em;
+  border-radius: 2em;
 
 }
 
@@ -126,25 +108,8 @@ nav.top-bar-nav{
   height: 100%;
   display: flex;
   flex-flow: row nowrap;
-  background-color: rgba(255, 255, 255, 0.3);
+  
 }
 .social-cover .left-social{
   width: 77%;
-}
-footer.page-footer{
-  background-color: rgb(70, 60, 128);
-  margin-top: 5em;
-}
-footer.page-footer p{
-  text-align: justify;
-}
-footer.page-footer li{
-  margin-left: 2.5em;
-}
-footer.page-footer .footer-copyright{
-  background-color: rgba(51,51,51,0.3);
-}
-.footer-cont{
-  width: 85%;
-  margin: 0 auto;
 }
