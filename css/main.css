@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC|Oxygen|Rancho');
-
 *{
   box-sizing: border-box;
 }
@@ -39,4 +38,12 @@ footer.page-footer .footer-copyright{
 footer.page-footer{
   background-color: rgb(70, 60, 128);
   margin-top: 5em;
+}
+div.col.l2 ul{
+  display: flex;
+  justify-content: flex-start;
+}
+div.col.l2 li{
+  margin-left: 1.2em;
+
 }

@@ -170,7 +170,7 @@ nav.top-bar-nav{
   top: -150px;
 }
 #pl{
-  top: -40px;
+  top: -70px;
 }
 #fdr{
   left: -30px;
@@ -278,6 +278,15 @@ footer.page-footer{
   font-size: 3em;
   color: rgb(0, 175, 238);
   font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+.mas-ayuda-cont li i{
+  font-size: 0.7em;
+  border: 2px solid rgb(0, 175, 238);
+  border-radius: 50%;
+  padding: 0.1em;
+  margin-right: 0.4em;
 }
 .mas-ayuda-cont ul{
   display: flex;

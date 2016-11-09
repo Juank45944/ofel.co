@@ -1,7 +1,7 @@
 $(function(){
   $(window).scroll(function(){
     console.log();
-    if ($(this).scrollTop()>400) {
+    if ($(this).scrollTop()>520) {
       $('.top-bar-cont').show('blind');
     }else {
       $('.top-bar-cont').hide('blind');

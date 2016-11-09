@@ -53,6 +53,7 @@ body{
 .title-text h3{
   font-family: 'Amatic SC', cursive;
   color: rgb(255, 253, 255);
+  font-size: 4.3em;
 }
 
 .contents-cont.first{
@@ -74,7 +75,7 @@ body{
   cursor: pointer;
   padding-top: 1em !important;
   padding-bottom: 1em !important;
-  border-radius: 2em;
+  
 
 }
 
@@ -108,7 +109,7 @@ body{
   height: 100%;
   display: flex;
   flex-flow: row nowrap;
-  
+
 }
 .social-cover .left-social{
   width: 77%;
