@@ -34,16 +34,39 @@
     <div class="container">
 
       <div class="row">
-        <div class="col l6">
-          <h1 class="section-header">Conoce la comunidad</h1>
-          <p class="section-text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-        </div>
-        <div class="col l6">
-          <img src="img/logo.jpg" alt="" class="responsive-img logo-img z-depth-4"/>
+        <div class="col l12">
+          <h1>¿Quiéres conocer un poco más?</h1>
         </div>
       </div>
+      <div class="row">
+        <div class="col l12">
+          <h3>Envíanos un mensaje y permítenos conocer un poco más sobre ti</h3>
+        </div>
+      </div>
+      <form id="contacto" action="javascript:;" method="post">
+        <div class="row">
+          <div class="input-field col l5">
+            <input id="nombre" type="text" class="validate">
+            <label for="nombre">Nombre completo:</label>
+          </div>
+          <div class="input-field col l5 offset-l2">
+            <input id="email" type="email" class="validate">
+            <label for="email">Correo electrónico:</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col l12">
+            <textarea id="textarea" class="materialize-textarea validate"></textarea>
+            <label for="textarea">Escribe aquí tu mensaje:</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col l12 center-align">
+            <button class="waves-effect waves-light btn"><i class="material-icons left">send</i>Enviar</button>
+          </div>
+        </div>
+
+      </form>
 
     </div>
 
@@ -94,6 +117,6 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/jquery-ui.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/quienes_somos.js"></script>
+    <script type="text/javascript" src="js/contacto.js"></script>
   </body>
 </html>

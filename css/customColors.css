@@ -1,0 +1,57 @@
+
+/* label color */
+   .input-field label {
+     color: rgb(77, 77, 77);
+     font-family: 'Oxygen', sans-serif;
+     font-size: 1em;
+   }
+   .input-field input[type=text], .input-field input[type=email], .input-field textarea{
+     color: rgb(77, 77, 77);
+     font-family: 'Oxygen', sans-serif;
+     font-size: 1.5em;
+   }
+   .input-field textarea{
+     font-size: 1em;
+     min-height: 10em;
+   }
+   /* label focus color */
+   .input-field input[type=text]:focus + label,  .input-field input[type=password]:focus + label, .input-field input[type=email]:focus + label, .input-field textarea:focus + label{
+     color: #71b51d !important;
+   }
+   /* label underline focus color */
+   .input-field input[type=text]:focus, .input-field input[type=password]:focus, .input-field input[type=email]:focus, .input-field textarea:focus {
+     border-bottom: 1px solid #71b51d !important;
+     box-shadow: 0 1px 0 0 #71b51d !important;
+   }
+   /* valid color */
+   .input-field input[type=text].valid, .input-field input[type=password].valid, .input-field input[type=email].valid, .input-field textarea.valid {
+     border-bottom: 1px solid #71b51d;
+     box-shadow: 0 1px 0 0 #71b51d;
+     font-family: 'Oxygen', sans-serif;
+     font-size: 1.5em;
+   }
+   /* invalid color */
+   .input-field input[type=text].invalid, .input-field input[type=password].invalid, .input-field input[type=email].invalid, .input-field textarea.invalid {
+     border-bottom: 1px solid #b51d1d;
+     box-shadow: 0 1px 0 0 #b51d1d;
+     font-family: 'Oxygen', sans-serif;
+     font-size: 1.5em;
+   }
+   /* icon prefix focus color */
+   .input-field .prefix.active {
+     color: #71b51d;
+   }
+
+.btn{
+  background-color: #463C80;
+  height: 3.5em;
+}
+.btn:valid{
+  background-color: #463C80;
+}
+.btn:hover{
+  background-color: #342d5e;
+}
+.desc{
+  color: #000;
+}

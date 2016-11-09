@@ -1,0 +1,14 @@
+@import url(main.css);
+@import url(customColors.css);
+
+div h1{
+  font-family: 'Amatic SC', cursive;
+  color: #463C80;
+  font-size: 7em;
+  text-align: center;
+}
+div h3{
+  font-family: 'Rancho', cursive;
+  color: #71b51d;
+  text-align: center;
+}

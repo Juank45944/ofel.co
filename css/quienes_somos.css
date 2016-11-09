@@ -37,6 +37,8 @@
 }
 .parallax-container {
       height: 30em;
+      margin-top: 3em;
+      margin-bottom: 3em;
 }
 .parallax .cover{
   height: 100%;
