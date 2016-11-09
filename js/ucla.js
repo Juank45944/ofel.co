@@ -14,6 +14,10 @@ $(function(){
   $('.boy img').mouseleave(function(){
     $(this).parent().prev().hide('fade');
   })
+  $('.modal').modal();
+  $('.voluntario').click(function(){
+
+  })
 
 
   $('.galeria-slider').slick({

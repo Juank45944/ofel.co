@@ -312,3 +312,19 @@ footer.page-footer{
   font-size: 10em;
   color: #EC268F;
 }
+a.voluntario{
+  height: 3em;
+  background: #EC268F;
+  margin-top: 3em;
+  font-family: 'Rancho', cursive;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a.voluntario:hover{
+  background: #d92584;
+}
+a.voluntario i{
+  margin-left: 0.5em;
+}
