@@ -1,8 +1,8 @@
 $(function(){
   $(".button-collapse").sideNav();
   $('#enviar').click(function(){
+    console.log('hola');
     sendMsg($('#nombre').val(), $('#email').val(), $('#textarea').val());
-
   })
 })
 

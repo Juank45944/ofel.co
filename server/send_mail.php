@@ -4,7 +4,7 @@
   $mail = $_POST['mail'];
   $msg = $_POST['msg'];
 
-  $para = 'comunidadofel@gmail.com';
+  $para = 'contacto@ofel.co';
   $titulo = 'Nuevo mensaje de Ofel.co';
   $mensaje = 'Remitente: '.$nombre."\r\n".$msg;
   $cabecera = 'Email remitente: '.$mail;
