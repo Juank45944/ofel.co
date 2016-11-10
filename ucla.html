@@ -20,7 +20,13 @@
       <nav class="top-bar-nav">
         <div class="nav-wrapper">
           <a href="index.html" class="brand-logo">Ofel</a>
+          <a href="#" data-activates="mobile-bar" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="quienes_somos.html">¿Quiénes somos?</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+          <ul id="mobile-bar" class="side-nav">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="quienes_somos.html">¿Quiénes somos?</a></li>
             <li><a href="contacto.html">Contacto</a></li>
@@ -32,7 +38,8 @@
 
     <div id="modal" class="modal">
       <div class="modal-content">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdmS7aOiMr0Hm_zGoEoHxgxDeu-OPVAyTT2xIgKHUKfQ6ipfw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Cargando...</iframe>
+        <button class="modal-close"><i class="material-icons">close</i></button>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdmS7aOiMr0Hm_zGoEoHxgxDeu-OPVAyTT2xIgKHUKfQ6ipfw/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Cargando...</iframe>
       </div>
     </div>
 
@@ -47,7 +54,7 @@
         </p>
         <a class="btn voluntario waves-effect waves-light" href="#modal">Soy voluntario<i class="material-icons">pan_tool</i></a>
       </div>
-      <div class="col m8 photo-gallery">
+      <div class="col m8 photo-gallery hide-on-small-only">
           <div class="card photo-gallery-pic" id="pic1">
             <div class="card-image">
               <img src="img/ucla-2012.jpeg">
@@ -96,14 +103,14 @@
     </div>
 
     <div class="row promo-info-cont">
-      <div class="col m6">
+      <div class="col m6 s12">
         <h2>Ayudar es muy fácil</h2>
         <p class="text-info">Dona un regalo para un niño en esta navidad, y ayuda a llevar la alegría y las sonrisas a quienes más lo necesitan. Puedes elegir el tipo de regalo que quieras para niño o niña entre los 0 y los 12 años.</p>
         <p class="text-info">
           El punto de donación es la <span>Parroquia Nuestra Señora del Sagrado Corazón</span> en el sector Palermo.
         </p>
       </div>
-      <div class="col m6">
+      <div class="col s12 m6">
         <h3 class="title-color">Punto de donación:</h3>
         <div class="iframe-cont z-depth-2">
           <div id="map"></div>
@@ -112,10 +119,10 @@
     </div>
 
     <div class="row mas-ayuda-cont">
-      <div class="col l6">
+      <div class="col l6 hide-on-small-only">
         <img src="img/ayuda.jpg" alt="" class="responsive-img z-depth-2"/>
       </div>
-      <div class="col l6">
+      <div class="col l6 s12">
         <p class="text-info">
           También nuestro Apostolado demanda un presupuesto considerable, por ser 8 días de actividades siendo indispensables ciertos materiales, dulces y refrigerios. Si deseas colaborar de esta manera comunícate a los siguientes números:
         </p>
@@ -133,7 +140,7 @@
     </div>
 
 
-    <div class="test-row">
+    <div class="test-row hide-on-small-only">
       <h2>Pasajeros del camión</h2>
       <p>Para ti,  ¿Qué es Un Camión Lleno de Alegría?</p>
       <div class="test-cont">
@@ -317,7 +324,7 @@
 
 
 
-    <div class="photos-cont z-depth-4">
+    <div class="photos-cont z-depth-4 hide-on-small-only">
       <div class="carousel-cont">
         <div class="galeria-slider">
           <div><img src="img/1.jpg"></div>
@@ -339,18 +346,18 @@
     <footer class="page-footer">
         <div class="footer-cont">
           <div class="row">
-            <div class="col l5 s12">
+            <div class="col l5 s12 hide-on-small-only">
               <h5 class="white-text">Comunidad Ofel</h5>
               <p class="grey-text text-lighten-4">Comunidad católica. Si quieres hacer parte de nuestra familia, te esperamos todos los viernes a las 7:00pm en la parroquia de Nuestra Señora del Sagrado Corazón en el barrio Palermo, Manizales.</p>
             </div>
-            <div class="col l2 offset-l2 s12">
+            <div class="col l2 offset-l2 s6">
               <h5 class="white-text">Síguenos</h5>
               <ul>
                 <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/comunidadofel/" target="_blank"><img src="img/icons/facebook.png" alt="" /></a></li>
                 <li><a class="grey-text text-lighten-3" href="https://twitter.com/ComunidadOfel" target="_blank"><img src="img/icons/twitter.png" alt="" /></a></a></li>
               </ul>
             </div>
-            <div class="col l3 s12">
+            <div class="col l3 s6">
               <h5 class="white-text">Mapa del Sitio</h5>
               <ul>
                 <li><a class="grey-text text-lighten-3" href="index.html">Inicio</a></li>

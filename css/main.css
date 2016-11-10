@@ -47,3 +47,8 @@ div.col.l2 li{
   margin-left: 1.2em;
 
 }
+
+.side-nav a{
+  font-size: 2.6em;
+  color: rgb(70, 60, 128);
+}

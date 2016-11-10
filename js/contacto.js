@@ -1,4 +1,5 @@
 $(function(){
+  $(".button-collapse").sideNav();
   $('#enviar').click(function(){
     sendMsg($('#nombre').val(), $('#email').val(), $('#textarea').val());
 

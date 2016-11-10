@@ -49,3 +49,12 @@
 .more-margin{
   margin-top: 4em !important;
 }
+
+@media (max-width: 600px) {
+  .main-header{
+    font-size: 3em;
+  }
+  .section-header{
+    font-size: 2.5em;
+  }
+}

@@ -75,7 +75,7 @@ body{
   cursor: pointer;
   padding-top: 1em !important;
   padding-bottom: 1em !important;
-  
+
 
 }
 
@@ -113,4 +113,32 @@ body{
 }
 .social-cover .left-social{
   width: 77%;
+}
+
+
+
+
+@media (max-width: 600px) {
+  .title-text h3{
+    font-size: 2.5em;
+    color: rgb(70, 60, 128);
+  }
+  .left-social{
+    display: none;
+  }
+  .social-cover{
+    justify-content: center;
+  }
+  .social-cont{
+    background-image: none;
+    background-color: #FFFDFF;
+  }
+  .top-bar-cont{
+    position: relative;
+    display: block;
+  }
+  .contents-cont.first{
+    margin-top: 1em;
+  }
+
 }

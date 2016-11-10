@@ -314,8 +314,9 @@ footer.page-footer{
 }
 a.voluntario{
   height: 3em;
-  background: #EC268F;
-  margin-top: 3em;
+  background: rgb(0, 175, 238);
+  margin-top: 1.5em;
+  margin-bottom: 1em;
   font-family: 'Rancho', cursive;
   font-size: 2em;
   display: flex;
@@ -323,8 +324,61 @@ a.voluntario{
   align-items: center;
 }
 a.voluntario:hover{
-  background: #d92584;
+  background: rgb(4, 161, 218);
 }
 a.voluntario i{
   margin-left: 0.5em;
+}
+.modal{
+  height: 40em;
+  max-height: 40em;
+}
+.modal-content{
+  height: 100%;
+  position: relative;
+}
+.side-nav a{
+  color: rgb(0, 175, 238);
+}
+.modal-content button{
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+  background-color: transparent;
+  border: 0;
+  color: rgb(77, 77, 77);
+}
+.modal-content button:hover{
+  color: rgb(0, 175, 238);
+}
+@media (max-width: 600px) {
+  .promo-cover h2{
+    font-size: 3.2em;
+  }
+  .promo-cont{
+    height: auto;
+    background-size: cover;
+  }
+  .text-info{
+    font-size: 1.2em;
+  }
+  .mas-ayuda-cont li{
+    font-size: 2em;
+  }
+  .mensaje-cont .first{
+    font-size: 2.5em;
+  }
+  .mensaje-cont .second{
+    font-size: 3.5em;
+  }
+  .mas-ayuda-cont p.text-info{
+    margin-top: 0;
+  }
+  .modal{
+    width: 100%;
+  }
+  .modal .modal-content{
+    padding: 0;
+  }
 }

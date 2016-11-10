@@ -1,4 +1,5 @@
 $(function(){
+  $(".button-collapse").sideNav();
   $('.photo-gallery-pic').mouseenter(function(){
     $(this).find('img').addClass('hovered-img');
     $(this).find('.card-title').show('slide');
