@@ -29,6 +29,7 @@ $(function(){
       window.location.href = 'misiones.html';
   })
   $(".button-collapse").sideNav();
+  $('.modal').modal();
 
 
 })
